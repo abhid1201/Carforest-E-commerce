@@ -1,0 +1,97 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* CUSTOM CSS (ADD YOUR CSS HERE!)                                                          */
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* Scroll-bar */
+
+/*width*/
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/*Track*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/*Handle*/
+::-webkit-scrollbar-thumb {
+    background: #f76d2b;
+}
+
+/*Handle on hover*/
+::-webkit-scrollbar-thumb:hover {
+    background: #333;
+}
+
+.package_box{
+    border:1px solid #74788d;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.package_box h1{
+    background-color: #f76d2b;
+    color: #fff;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 30px;
+    width:200px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.package{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:1px solid #74788d;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.package h1{    
+    color: #f76d2b;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    width:200px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.package h3{
+    width: 200px;
+    color: #333;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+.package p{
+    color: #333;
+    text-align: center;
+    margin: auto;
+}
+
+.package div{
+    margin: auto;
+    margin-top: 10px;
+}
+
+.errmsg{
+    margin: 0 0 15px 20px !important;
+    padding: 0px !important;
+    color: red !important;
+    font-size: 11px !important;
+    margin-left: 20px !important;
+}
+.errmsg div{
+    margin-top: -10px !important;
+}
+
+.invalid{
+    border-color: red !important;
+    margin-bottom: 5px !important;
+}
